@@ -1,21 +1,21 @@
 import { contacts } from '../data/contacts.js';
 
 const KolektivUmelcu = () => {
-  console.log(contacts);
+  // console.log(contacts);
 
   return (
     <div>
       <h1>Kolektiv umělců při remízku</h1>
 
-      {/* {contacts.map((contact) => {
-        <div>{contact.name}</div>;
-      })} */}
-
-      <p>Adélka</p>
-      <p>text</p>
-      <p>fotka</p>
-      <p>projekty</p>
-      <p>kontakt</p>
+      {contacts.map((contact) => {
+        return (
+          <div key={contact.id}>
+            <p>Jméno: {contact.name}</p>
+            <p>E-mail: {contact.contact}</p>
+            <br />
+          </div>
+        );
+      })}
     </div>
   );
 };

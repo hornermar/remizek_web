@@ -14,7 +14,10 @@ const Header = () => {
 
   return (
     <nav className="nav_bar">
-      {/* <div className="logo_image"></div> */}
+      <Link href="/">
+        <div>Logo</div>
+      </Link>
+
       <button name="menu" onClick={handleToggle}>
         <div className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}>
           <span></span>
