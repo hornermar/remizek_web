@@ -1,0 +1,42 @@
+export const contacts = [
+  {
+    id: 1,
+    name: 'Adélka',
+    text: 'text',
+    photo: 'fotka',
+    projects: 'projekt',
+    contact: 'adelka@remizek.org',
+  },
+  {
+    id: 2,
+    name: 'Kryštof',
+    text: 'text',
+    photo: 'fotka',
+    projects: 'projekt',
+    contact: 'krystof@remizek.org',
+  },
+  {
+    id: 3,
+    name: 'Kateř',
+    text: 'text',
+    photo: 'fotka',
+    projects: 'projekt',
+    contact: 'kater@remizek.org',
+  },
+  {
+    id: 4,
+    name: 'Honza',
+    text: 'text',
+    photo: 'fotka',
+    projects: 'projekt',
+    contact: 'jan@remizek.org',
+  },
+  {
+    id: 5,
+    name: 'Eduard',
+    text: 'text',
+    photo: 'fotka',
+    projects: 'projekt',
+    contact: 'eduard@remizek.org',
+  },
+];
