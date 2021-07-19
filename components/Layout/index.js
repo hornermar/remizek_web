@@ -19,13 +19,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export const AppNav = () => {
-  return (
-    <div className="App">
-      <Navbar />
-      App
-    </div>
-  );
-};
-
 export default Layout;
