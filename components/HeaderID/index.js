@@ -30,10 +30,10 @@ const HeaderID = () => {
         className={`menu_nav ${navbarOpen ? ' show_menu' : ''}`}
       >
         <li className="menu_nav__first">
-          <Link href="#projekty">Projekty v remízku</Link>
+          <Link href="#projekty">Projekty</Link>
         </li>
         <li>
-          <Link href="#kolektiv-umelcu">Kolektiv umělců při remízku</Link>
+          <Link href="#kolektiv-umelcu">Kolektiv umělců</Link>
         </li>
         <li>
           <Link href="#filosofie-spolku">Filosofie spolku</Link>
