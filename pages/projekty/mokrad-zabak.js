@@ -51,6 +51,13 @@ const Zabak = () => {
       </p>
 
       <Link href="/projekty/mokrad-zabak/synopse">Synopse</Link>
+
+      <p>
+        Odkaz na{' '}
+        <Link href="https://docs.google.com/presentation/d/1Fy3Mw0DRLC1a9NBRQRn8wIKXSad8lJuc7d5Y2jKBMzk/edit?usp=sharing">
+          prezentaci projektu
+        </Link>
+      </p>
     </div>
 
     // Odkaz na prezentaci projektu: Pitching_CT_11.3._11:30_mokrad_zabak_zvolanek vložit PDF ke stáhnutí.

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-const Header = () => {
+const HeaderID = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const handleToggle = () => {
@@ -30,29 +30,29 @@ const Header = () => {
         className={`menu_nav ${navbarOpen ? ' show_menu' : ''}`}
       >
         <li className="menu_nav__first">
-          <Link href="/projekty">Projekty v remízku</Link>
+          <Link href="#projekty">Projekty v remízku</Link>
         </li>
         <li>
-          <Link href="/kolektiv-umelcu">Kolektiv umělců při remízku</Link>
+          <Link href="#kolektiv-umelcu">Kolektiv umělců při remízku</Link>
         </li>
         <li>
-          <Link href="/filosofie-spolku">Filosofie spolku</Link>
+          <Link href="#filosofie-spolku">Filosofie spolku</Link>
         </li>
         <li>
-          <Link href="/zazij-remizek">Zažij Remízek</Link>
+          <Link href="#zazij-remizek">Zažij Remízek</Link>
         </li>
         <li>
-          <Link href="/kontakt">Kontakt</Link>
+          <Link href="#kontakt">Kontakt</Link>
         </li>
         <li>
-          <Link href="/blog">Blog</Link>
+          <Link href="#blog">Blog</Link>
         </li>
         <li>
-          <Link href="/rental">Rental</Link>
+          <Link href="#rental">Rental</Link>
         </li>
       </ul>
     </nav>
   );
 };
 
-export default Header;
+export default HeaderID;

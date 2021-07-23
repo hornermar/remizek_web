@@ -11,6 +11,8 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -26,12 +28,12 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
+/* .logo {
   width: 10rem;
   height: 10rem;
   background-image: url(/rocket.svg);
   background-size: contain;
-}
+} */
 
 /* Header */
 
@@ -43,13 +45,13 @@ header {
   margin-bottom: 40px;
 }
 
-.logo_image {
+/* .logo_image {
   width: 60%;
   background-image: url(/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   align-items: baseline;
-}
+} */
 
 .nav_bar button {
   z-index: 10;
@@ -131,27 +133,35 @@ header {
 }
 
 @media (min-width: 768px) {
+  header {
+    margin-top: 50px;
+  }
+  .nav_bar {
+    width: 90vw;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 0 50px 0;
+    /* font-size: 10px; */
+  }
   .menu_nav {
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
     background: transparent;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10%;
+    /* max-width: 700px; */
   }
 
   .nav_bar button {
     display: none;
   }
-
+  /* 
   .logo_image {
     width: 20%;
-  }
-  .menu_nav {
-    position: static;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 70%;
-    height: 5%;
-    max-width: 700px;
-  }
+  } */
   .menu_nav__first {
     margin-top: 0;
   }
@@ -161,4 +171,14 @@ header {
   .nav_bar a {
     color: black;
   }
+}
+
+.container_page {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 40px;
 }

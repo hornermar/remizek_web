@@ -1,8 +1,12 @@
+import BlogContent from '../components/BlogContent';
+import HeaderLink from '../components/HeaderLink';
+
 const Blog = () => {
   return (
-    <div>
-      <h1>Blog</h1>
-    </div>
+    <>
+      <HeaderLink />
+      <BlogContent />
+    </>
   );
 };
 
