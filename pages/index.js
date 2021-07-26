@@ -30,26 +30,26 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container_page" id="projekty">
+      <div id="projekty">
         <ProjectsContent />
       </div>
-      <div className="container_page" id="filosofie-spolku">
+      <div id="filosofie-spolku">
         <PhilosophyContent />
       </div>
-      <div className="container_page" id="kolektiv-umelcu">
+      <div id="kolektiv-umelcu">
         <TeamContent />
       </div>
 
-      <div className="container_page" id="zazij-remizek">
+      <div id="zazij-remizek">
         <ExperienceContent />
       </div>
-      <div className="container_page" id="kontakt">
+      <div id="kontakt">
         <ContactContent />
       </div>
       <div id="blog">
         <BlogContent />
       </div>
-      <div className="container_page" id="rental">
+      <div id="rental">
         <RentalContent />
       </div>
     </div>
