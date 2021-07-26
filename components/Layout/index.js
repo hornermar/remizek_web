@@ -6,12 +6,18 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <title>Remízek</title>
-        <link rel="icon" href="/logo.svg" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" href="/logo.svg" passHref />
+        <link rel="preconnect" href="https://fonts.googleapis.com" passHref />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin
+          passHref
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
           rel="stylesheet"
+          passHref
         />
       </Head>
       <header>

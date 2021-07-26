@@ -14,10 +14,6 @@ const HeaderLink = () => {
 
   return (
     <nav className="nav_bar">
-      <Link href="/">
-        <div>Logo</div>
-      </Link>
-
       <button name="menu" onClick={handleToggle}>
         <div className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}>
           <span></span>
