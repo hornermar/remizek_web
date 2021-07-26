@@ -33,12 +33,13 @@ export default function Home() {
       <div className="container_page" id="projekty">
         <ProjectsContent />
       </div>
-      <div className="container_page" id="kolektiv-umelcu">
-        <TeamContent />
-      </div>
       <div className="container_page" id="filosofie-spolku">
         <PhilosophyContent />
       </div>
+      <div className="container_page" id="kolektiv-umelcu">
+        <TeamContent />
+      </div>
+
       <div className="container_page" id="zazij-remizek">
         <ExperienceContent />
       </div>

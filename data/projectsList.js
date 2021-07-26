@@ -39,6 +39,6 @@ export const projectsList = [
     id: 7,
     name: 'Mezi odpady online',
     text: 'dokument o odpadovém hospodářství',
-    link: '/projekty/mezi-odpady-online"',
+    link: '/projekty/mezi-odpady-online',
   },
 ];

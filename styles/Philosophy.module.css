@@ -1,0 +1,23 @@
+.philosophy {
+  background-color: #bafbb5;
+}
+
+.containerPhilosophy {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.philosophy h1 {
+  padding: 0;
+}
+
+.philosophy button {
+  font-family: 'Rubik', sans-serif;
+  border: 1px solid #bafbb5;
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  font-size: 16px;
+}
