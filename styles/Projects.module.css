@@ -46,9 +46,9 @@
   display: flex;
 }
 
-.project p {
+/* .project p {
   text-align: justify;
-}
+} */
 
 .project button {
   font-family: 'Rubik', sans-serif;

@@ -41,4 +41,16 @@ export const projectsList = [
     text: 'dokument o odpadovém hospodářství',
     link: '/projekty/mezi-odpady-online',
   },
+  {
+    id: 8,
+    name: 'Platforma pro umělce na volné noze',
+    text: 'podporujeme umělce pro ochranu přírody',
+    link: '/projekty/mezi-odpady-online',
+  },
+  {
+    id: 9,
+    name: 'Spolupracujte s remízkem',
+    text: '',
+    link: '/projekty/mezi-odpady-online',
+  },
 ];

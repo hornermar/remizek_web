@@ -1,6 +1,7 @@
 import BlogContent from '../components/BlogContent';
 import ContactContent from '../components/ContactContent';
 import ExperienceContent from '../components/ExperienceContent';
+import Footer from '../components/Footer';
 import HeaderID from '../components/HeaderID';
 import PhilosophyContent from '../components/PhilosophyContent';
 import ProjectsContent from '../components/ProjectsContent';
@@ -36,6 +37,12 @@ export default function Home() {
       <div id="filosofie-spolku">
         <PhilosophyContent />
       </div>
+      <div id="blog">
+        <BlogContent />
+      </div>
+
+      <Footer />
+      {/* 
       <div id="kolektiv-umelcu">
         <TeamContent />
       </div>
@@ -46,12 +53,10 @@ export default function Home() {
       <div id="kontakt">
         <ContactContent />
       </div>
-      <div id="blog">
-        <BlogContent />
-      </div>
+
       <div id="rental">
         <RentalContent />
-      </div>
+      </div> */}
     </div>
   );
 }

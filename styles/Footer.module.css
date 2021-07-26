@@ -1,0 +1,35 @@
+.containerFooter {
+  background-color: black;
+  position: relative;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.line {
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  height: 1px;
+  width: 90%;
+  background-color: #bafbb5;
+}
+
+.containerFooter p {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.containerFooter a {
+  text-decoration: none;
+  color: #bafbb5;
+}
+
+.facegookIcon {
+  width: 30px;
+  background: #bafbb5;
+  margin-right: 5%;
+  margin-top: 40px;
+}
