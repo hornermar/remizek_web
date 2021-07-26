@@ -11,19 +11,24 @@ import TeamContent from '../components/TeamContent';
 export default function Home() {
   return (
     <div>
-      <HeaderID />
+      {/* <HeaderID /> */}
       <div className="container_page">
-        <p>
-          My jsme remízek - bezpečné útočiště pro podporu biodiverzity a
-          rovnoprávnosti
-        </p>
-        <p>
-          To, co v remízku tvoříme, nám dává hluboký smysl. Není to pro nás
-          práce, je to pro nás láska. Naše motivace vychází z přirozené morálky
-          a přesvědčení, že každý z nás má sílu změnit nepráví, které nás
-          obklopuje.
-        </p>
-        <p>Zalij remízek na darujme - fungujeme jen díky lidem, jako vy.</p>
+        <div className="cover">
+          <div className="cover_text">
+            <h1>MY JSME REMÍZEK</h1>
+            <h2>
+              bezpečné útočiště pro podporu biodiverzity a&nbsp;rovnoprávnosti
+            </h2>
+            <p>
+              To, co v remízku tvoříme, nám dává hluboký smysl. Není to pro nás
+              práce, je to pro nás láska. Naše motivace vychází z přirozené
+              morálky a&nbsp;přesvědčení, že každý z&nbsp;nás má sílu změnit
+              nepráví, které nás obklopuje.
+            </p>
+            <button>Zalij remízek na darujme</button>
+            <p>Fungujeme jen díky lidem, jako vy.</p>
+          </div>
+        </div>
       </div>
       <div className="container_page" id="projekty">
         <ProjectsContent />

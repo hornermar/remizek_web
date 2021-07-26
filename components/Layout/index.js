@@ -15,7 +15,9 @@ const Layout = ({ children }) => {
         />
       </Head>
       <header>
-        <div className="App">{/* <Header /> */}</div>
+        <div className="App">
+          <Header />
+        </div>
       </header>
       <main>{children}</main>
     </>

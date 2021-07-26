@@ -1,37 +1,35 @@
+import styles from '../../styles/Projects.module.css';
+import { projectsList } from '../../data/projectsList';
 import Link from 'next/link';
 
 const ProjectsContent = () => {
   return (
-    <div className="container_page">
-      <h1>Projekty</h1>
-      <p>
+    <section className={styles.projects}>
+      <div className={styles.containerProjects}>
+        <h1>PROJEKTY</h1>
+        {/* <p>
         Jsme otevřená audiovizuální platforma pro obnovu biodiverzity a
         rovnoprávnosti.
-      </p>
-      <ul>
-        <li>
-          <Link href="/projekty/javor">Občan Javor</Link>
-        </li>
-        <li>
-          <Link href="/projekty/mokrad-zabak">Mokřad žabák</Link>
-        </li>
-        <li>
-          <Link href="/projekty/vyrustat-doma">Vyrůstat doma</Link>
-        </li>
-        <li>
-          <Link href="/projekty/park-folimanka">Park Folimanka</Link>
-        </li>
-        <li>
-          <Link href="/projekty/ziva-voda">Živá voda</Link>
-        </li>
-        <li>
-          <Link href="/projekty/ptak-rybak">Film Pták Rybák</Link>
-        </li>
-        <li>
-          <Link href="/projekty/mezi-odpady-online">Mezi odpady online</Link>
-        </li>
-      </ul>
-    </div>
+      </p> */}
+
+        {projectsList.map((project) => {
+          return (
+            <div className={styles.project} key={project.id}>
+              <div className={styles.projectNumber}>
+                <p>{project.id}</p>
+                <div></div>
+              </div>
+              <h3>{project.name.toUpperCase()}</h3>
+              <p>{project.text}</p>
+
+              <Link href={project.link}>
+                <button>Více</button>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 };
 

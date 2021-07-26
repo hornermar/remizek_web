@@ -15,7 +15,7 @@ const HeaderID = () => {
   return (
     <nav className="nav_bar">
       <Link href="/">
-        <div>Logo</div>
+        <img src="/logo.png" alt="logo" />
       </Link>
 
       <button name="menu" onClick={handleToggle}>
