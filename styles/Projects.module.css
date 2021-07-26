@@ -4,17 +4,17 @@
 }
 
 .containerProjects {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .containerProjects h1 {
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .project {
-  padding: 15px 0;
+  padding-bottom: 20px;
 }
 
 .projectNumber {
