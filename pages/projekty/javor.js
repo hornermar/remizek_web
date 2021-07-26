@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 const Javor = () => {
@@ -63,7 +62,6 @@ const Javor = () => {
             / Kamera: Juliana Moska, Adéla Kaiserová, Kryštof, Zvuk: Adéla
             Kaiserová, Matěj Lindner Střih: Rudi Mašata, Kryštof /
           </p>
-          {/* <Image src="/javor_3.jpg" width={500} height={500} /> */}
         </div>
 
         <div>
@@ -71,10 +69,6 @@ const Javor = () => {
           <Link href="https://fb.watch/4Oxk_K1vbK/">
             https://fb.watch/4Oxk_K1vbK/
           </Link>
-          {/* <Image src="/javor_4.jpg" width={500} height={500} />
-          <Image src="/javor_5.jpg" width={500} height={500} />
-          <Image src="/javor_6.jpg" width={500} height={500} />
-          <Image src="/javor_7.jpg" width={500} height={500} /> */}
         </div>
       </div>
 
@@ -102,14 +96,6 @@ const Javor = () => {
             Miler , Zvuk: Dejv Prochazka , Světla: Aeaeæ OEn, Asistence: Anežka
             Fišárková Adéla Kaiserová /
           </p>
-
-          {/* <Image src="/javor_8.jpg" width={500} height={500} />
-          <Image src="/javor_9.jpg" width={500} height={500} />
-          <Image src="/javor_10.jpg" width={500} height={500} />
-          <Image src="/javor_11.jpg" width={500} height={500} />
-          <Image src="/javor_12.jpg" width={500} height={500} />
-          <Image src="/javor_13.jpg" width={500} height={500} />
-          <Image src="/javor_14.jpg" width={500} height={500} /> */}
         </div>
 
         <div>
@@ -117,15 +103,6 @@ const Javor = () => {
           <Link href="https://www.facebook.com/TPSremizek/videos/935027017234833 ">
             https://www.facebook.com/TPSremizek/videos/935027017234833
           </Link>
-
-          {/* <Image src="/javor_15.jpg" width={500} height={500} />
-          <Image src="/javor_16.jpg" width={500} height={500} />
-          <Image src="/javor_17.jpg" width={500} height={500} />
-          <Image src="/javor_18.jpg" width={500} height={500} />
-          <Image src="/javor_19.jpg" width={500} height={500} />
-          <Image src="/javor_20.jpg" width={500} height={500} />
-          <Image src="/javor_21.jpg" width={500} height={500} />
-          <Image src="/javor_22.jpg" width={500} height={500} /> */}
         </div>
 
         <div>
@@ -142,15 +119,6 @@ const Javor = () => {
           <Link href="https://fb.watch/4v3P8Nhs2g/">
             https://fb.watch/4v3P8Nhs2g/
           </Link>
-
-          {/* <Image src="/javor_23.jpg" width={500} height={500} />
-          <Image src="/javor_24.jpg" width={500} height={500} />
-          <Image src="/javor_25.jpg" width={500} height={500} />
-          <Image src="/javor_26.jpg" width={500} height={500} />
-          <Image src="/javor_27.jpg" width={500} height={500} />
-          <Image src="/javor_28.jpg" width={500} height={500} />
-          <Image src="/javor_29.jpg" width={500} height={500} />
-          <Image src="/javor_30.jpg" width={500} height={500} /> */}
         </div>
 
         <div>
@@ -169,15 +137,6 @@ const Javor = () => {
 
         <div>
           <h3>Magistrát Zastupitelstvo</h3>
-          {/* <Image src="/javor_38.jpg" width={500} height={500} />
-          <Image src="/javor_39.jpg" width={500} height={500} />
-          <Image src="/javor_40.jpg" width={500} height={500} />
-          <Image src="/javor_41.jpg" width={500} height={500} />
-          <Image src="/javor_42.jpg" width={500} height={500} />
-          <Image src="/javor_43.jpg" width={500} height={500} />
-          <Image src="/javor_44.jpg" width={500} height={500} />
-          <Image src="/javor_45.jpg" width={500} height={500} />
-          <Image src="/javor_46.jpg" width={500} height={500} /> */}
         </div>
       </div>
     </div>
