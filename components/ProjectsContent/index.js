@@ -22,7 +22,7 @@ const ProjectsContent = () => {
               <h3>{project.name.toUpperCase()}</h3>
               <p>{project.text}</p>
 
-              <Link href={project.link}>
+              <Link href={project.link} passHref>
                 <button>Více</button>
               </Link>
             </div>

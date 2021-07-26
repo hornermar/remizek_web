@@ -30,25 +30,39 @@ const HeaderLink = () => {
         className={`menu_nav ${navbarOpen ? ' show_menu' : ''}`}
       >
         <li className="menu_nav__first">
-          <Link href="/#projekty">Projekty</Link>
+          <Link href="/#projekty" passHref>
+            Projekty
+          </Link>
         </li>
         <li>
-          <Link href="/#kolektiv-umelcu">Kolektiv umělců</Link>
+          <Link href="/#kolektiv-umelcu" passHref>
+            Kolektiv umělců
+          </Link>
         </li>
         <li>
-          <Link href="/#filosofie-spolku">Filosofie spolku</Link>
+          <Link href="/#filosofie-spolku" passHref>
+            Filosofie spolku
+          </Link>
         </li>
         <li>
-          <Link href="/#zazij-remizek">Zažij Remízek</Link>
+          <Link href="/#zazij-remizek" passHref>
+            Zažij Remízek
+          </Link>
         </li>
         <li>
-          <Link href="/#kontakt">Kontakt</Link>
+          <Link href="/#kontakt" passHref>
+            Kontakt
+          </Link>
         </li>
         <li>
-          <Link href="/#blog">Blog</Link>
+          <Link href="/#blog" passHref>
+            Blog
+          </Link>
         </li>
         <li>
-          <Link href="/#rental">Rental</Link>
+          <Link href="/#rental" passHref>
+            Rental
+          </Link>
         </li>
       </ul>
     </nav>
