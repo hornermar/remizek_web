@@ -29,7 +29,8 @@
 
 .facegookIcon {
   width: 30px;
-  background: #bafbb5;
+  /* background: #bafbb5; */
   margin-right: 5%;
-  margin-top: 40px;
+  margin-top: 20px;
+  filter: invert();
 }

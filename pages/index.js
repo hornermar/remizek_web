@@ -37,9 +37,9 @@ export default function Home() {
       <div id="filosofie-spolku">
         <PhilosophyContent />
       </div>
-      <div id="blog">
+      {/* <div id="blog">
         <BlogContent />
-      </div>
+      </div> */}
 
       <Footer />
       {/* 
