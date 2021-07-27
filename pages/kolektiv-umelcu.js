@@ -5,7 +5,7 @@ import { contacts } from '../data/contacts.js';
 const KolektivUmelcu = () => {
   return (
     <>
-      <HeaderLink />
+      {/* <HeaderLink /> */}
       <TeamContent />
     </>
   );

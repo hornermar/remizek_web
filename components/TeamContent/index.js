@@ -13,7 +13,7 @@ const TeamContent = () => {
           return (
             <div className={styles.contact} key={contact.id}>
               <p>{contact.name}</p>
-              {/* <p>E-mail: {contact.contact}</p> */}
+              <p>{contact.contact}</p>
               <div className={styles.line}></div>
             </div>
           );

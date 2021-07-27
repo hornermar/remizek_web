@@ -12,7 +12,7 @@ import TeamContent from '../components/TeamContent';
 export default function Home() {
   return (
     <div>
-      {/* <HeaderID /> */}
+      <HeaderID />
       <div className="container_page">
         <div className="cover">
           <div className="cover_text">
