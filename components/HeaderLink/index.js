@@ -31,7 +31,7 @@ const HeaderLink = () => {
           </Link>
         </li>
         <li>
-          <Link href="/#kolektiv-umelcu" passHref>
+          <Link href="/kolektiv-umelcu" passHref>
             Kolektiv umělců
           </Link>
         </li>
@@ -41,22 +41,22 @@ const HeaderLink = () => {
           </Link>
         </li>
         <li>
-          <Link href="/#zazij-remizek" passHref>
+          <Link href="/zazij-remizek" passHref>
             Zažij Remízek
           </Link>
         </li>
         <li>
-          <Link href="/#kontakt" passHref>
+          <Link href="/kontakt" passHref>
             Kontakt
           </Link>
         </li>
         <li>
-          <Link href="/#blog" passHref>
+          <Link href="/blog" passHref>
             Blog
           </Link>
         </li>
         <li>
-          <Link href="/#rental" passHref>
+          <Link href="/rental" passHref>
             Rental
           </Link>
         </li>

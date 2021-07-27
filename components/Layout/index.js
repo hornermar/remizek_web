@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../Footer';
 // import Header from '../HeaderID/index.js';
 
 const Layout = ({ children }) => {
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
         <div className="App">{/* <Header /> */}</div>
       </header>
       <main>{children}</main>
+      <Footer />
     </>
   );
 };

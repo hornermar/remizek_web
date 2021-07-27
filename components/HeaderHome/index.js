@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-const HeaderID = () => {
+const HeaderHome = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const handleToggle = () => {
@@ -14,6 +14,9 @@ const HeaderID = () => {
 
   return (
     <nav className="nav_bar">
+      <Link href="/">
+        <img className="logo" src="/logo.png" alt="remizek" />
+      </Link>
       <button name="menu" onClick={handleToggle}>
         <div className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}>
           <span></span>
@@ -39,22 +42,22 @@ const HeaderID = () => {
           </Link>
         </li>
         <li>
-          <Link href="#zazij-remizek" passHref>
+          <Link href="zazij-remizek" passHref>
             Zažij Remízek
           </Link>
         </li>
         <li>
-          <Link href="#kontakt" passHref>
+          <Link href="/kontakt" passHref>
             Kontakt
           </Link>
         </li>
         <li>
-          <Link href="#blog" passHref>
+          <Link href="/blog" passHref>
             Blog
           </Link>
         </li>
         <li>
-          <Link href="#rental" passHref>
+          <Link href="/rental" passHref>
             Rental
           </Link>
         </li>
@@ -63,4 +66,4 @@ const HeaderID = () => {
   );
 };
 
-export default HeaderID;
+export default HeaderHome;

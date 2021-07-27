@@ -21,3 +21,8 @@
   height: 1px;
   background: #bafbb5;
 }
+
+.team a {
+  text-decoration: none;
+  color: #bafbb5;
+}

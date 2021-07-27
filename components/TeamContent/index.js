@@ -13,7 +13,9 @@ const TeamContent = () => {
           return (
             <div className={styles.contact} key={contact.id}>
               <p>{contact.name}</p>
-              <p>{contact.contact}</p>
+              <p>
+                <a href={`mailto:${contact.contact}`}>{contact.contact}</a>
+              </p>
               <div className={styles.line}></div>
             </div>
           );

@@ -7,7 +7,7 @@ const Folimanka = () => {
       <HeaderLink />
       <div className={styles.simplePage}>
         <div className={styles.container}>
-          <h1 className={styles.title}>PARK FOLIMAKNA</h1>
+          <h1 className={styles.title}>PARK FOLIMANKA</h1>
           <p>I na Praze 2 se má lít beton a umělá tráva místo parku.</p>
           <p>
             Podporujeme hnutí Za folimanku a sledujeme vývoj situace na místě,

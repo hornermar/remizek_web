@@ -1,8 +1,7 @@
 import BlogContent from '../components/BlogContent';
 import ContactContent from '../components/ContactContent';
 import ExperienceContent from '../components/ExperienceContent';
-import Footer from '../components/Footer';
-import HeaderID from '../components/HeaderID';
+import HeaderHome from '../components/HeaderHome';
 import PhilosophyContent from '../components/PhilosophyContent';
 import ProjectsContent from '../components/ProjectsContent';
 import RentalContent from '../components/RentalContent';
@@ -12,7 +11,7 @@ import TeamContent from '../components/TeamContent';
 export default function Home() {
   return (
     <div>
-      <HeaderID />
+      <HeaderHome />
       <div className="container_page">
         <div className="cover">
           <div className="cover_text">
@@ -40,8 +39,6 @@ export default function Home() {
       {/* <div id="blog">
         <BlogContent />
       </div> */}
-
-      <Footer />
       {/* 
       <div id="kolektiv-umelcu">
         <TeamContent />

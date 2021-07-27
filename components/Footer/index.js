@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../../styles/Footer.module.css';
 
 const Footer = () => {
@@ -7,7 +8,9 @@ const Footer = () => {
       <p>
         <a href="mailto: tpsremizek@gmail.com">tpsremizek@gmail.com</a>
       </p>
-      <img className={styles.facegookIcon} src="/facebook.svg" />
+      <Link href="https://www.facebook.com/TPSremizek">
+        <img className={styles.facegookIcon} src="/facebook.svg" />
+      </Link>
     </div>
   );
 };
