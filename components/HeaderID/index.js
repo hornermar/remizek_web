@@ -29,7 +29,7 @@ const HeaderID = () => {
           <Link href="#projekty">Projekty</Link>
         </li>
         <li>
-          <Link href="#kolektiv-umelcu" passHref>
+          <Link href="/kolektiv-umelcu" passHref>
             Kolektiv umělců
           </Link>
         </li>
