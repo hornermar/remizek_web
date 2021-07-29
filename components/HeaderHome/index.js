@@ -33,7 +33,7 @@ const HeaderHome = () => {
             <Link href="/">Remízek</Link>
           </li>
           <li>
-            <Link href="/projekty">Projekty</Link>
+            <Link href="/#projekty">Projekty</Link>
           </li>
           <li>
             <Link href="/kolektiv-umelcu" passHref>
