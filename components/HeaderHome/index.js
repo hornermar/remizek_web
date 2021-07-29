@@ -36,13 +36,13 @@ const HeaderHome = () => {
             <Link href="/#projekty">Projekty</Link>
           </li>
           <li>
-            <Link href="/kolektiv-umelcu" passHref>
-              Kolektiv umělců
+            <Link href="/#filosofie-spolku" passHref>
+              Filosofie spolku
             </Link>
           </li>
           <li>
-            <Link href="/#filosofie-spolku" passHref>
-              Filosofie spolku
+            <Link href="/kolektiv-umelcu" passHref>
+              Kolektiv umělců
             </Link>
           </li>
           <li>

@@ -4,10 +4,6 @@
   color: white;
 }
 
-.team h1 {
-  width: 100%;
-}
-
 .containerTeam {
   padding-top: 40px;
   width: 80%;
@@ -16,6 +12,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.team h1 {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .contact {
@@ -32,9 +34,13 @@
   color: #bafbb5;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .contact {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 30%;
+  }
+
+  .containerTeam {
+    padding-top: 80px;
   }
 }

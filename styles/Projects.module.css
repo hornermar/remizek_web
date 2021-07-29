@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .containerProjects {
     width: 55%;
     /* padding-top: 70px; */

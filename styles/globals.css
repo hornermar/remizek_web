@@ -69,10 +69,13 @@ img {
   margin-top: 35px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .cover_text {
     width: 40%;
     padding-top: 10%;
+  }
+  .cover_text {
+    font-size: 18px;
   }
 }
 
@@ -187,7 +190,7 @@ header {
   background-color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .nav_bar button {
     display: none;
   }
