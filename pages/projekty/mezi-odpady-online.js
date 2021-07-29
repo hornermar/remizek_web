@@ -33,25 +33,26 @@ const MeziOdpady = () => {
           <Link href="https://www.jsns.cz/lekce/482625-mezi-odpady">zde.</Link>
         </p>
 
-        {/* <p>
-        <Link href="https://www.facebook.com/watch/live/?v=3246003868858519&ref=watch_permalink">
-          Online premiéra s debatou s majiteli bezobalových obchodů
-        </Link>
-      </p>
+        <p>
+          <Link href="https://www.facebook.com/watch/live/?v=3246003868858519&ref=watch_permalink">
+            Online premiéra s debatou s majiteli bezobalových obchodů
+          </Link>
+        </p>
 
-      <p>
-        Video:
-        <Link href="https://www.youtube.com/watch?v=rK1P1cY1Ifs">
-          Mezi Odpady // dokument o odpadovém hospodářství
-        </Link>
-      </p>
-      <p>
-        Napsali o nás:{' '}
-        <Link href="https://www.advojka.cz/archiv/2020/8/zivocesi-mezi-odpady">
-          A2 / Živočeši mezi odpady: České environmentální dokumenty na
-          festivalu Jeden svět
-        </Link>
-      </p> */}
+        <p>
+          <Link href="https://www.youtube.com/watch?v=rK1P1cY1Ifs">
+            Mezi Odpady // dokument o odpadovém hospodářství
+          </Link>
+        </p>
+        <p>
+          Napsali o nás:{' '}
+          <p>
+            <Link href="https://www.advojka.cz/archiv/2020/8/zivocesi-mezi-odpady">
+              A2 / Živočeši mezi odpady: České environmentální dokumenty na
+              festivalu Jeden svět
+            </Link>
+          </p>
+        </p>
       </div>
     </div>
   );

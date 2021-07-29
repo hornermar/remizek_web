@@ -4,9 +4,13 @@
   color: white;
 }
 
+.team h1 {
+  width: 100%;
+}
+
 .containerTeam {
   padding-top: 40px;
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -26,4 +30,11 @@
 .team a {
   text-decoration: none;
   color: #bafbb5;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    margin-top: 20px;
+    width: 30%;
+  }
 }

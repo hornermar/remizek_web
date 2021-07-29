@@ -1,11 +1,9 @@
 import Link from 'next/link';
 import styles from '../../styles/SimpleProject.module.css';
-import HeaderLink from '../../components/HeaderLink';
 
 const VyrustatDoma = () => {
   return (
     <>
-      <HeaderLink />
       <div className={styles.simplePage}>
         <div className={styles.container}>
           <h1 className={styles.title}>VYRŮSTAT DOMA</h1>

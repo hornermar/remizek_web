@@ -1,25 +1,34 @@
 .containerFooter {
   background-color: black;
   position: relative;
-  height: 100px;
+  /* height: 90px; */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .line {
-  position: absolute;
-  top: 30px;
-  left: 5%;
+  margin: 0 auto;
+  margin-top: 20px;
   height: 1px;
-  width: 90%;
+  width: 85%;
   background-color: #bafbb5;
+}
+
+.contacts {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
 }
 
 .containerFooter p {
   display: inline-block;
-  margin-left: 5%;
-  margin-top: 50px;
+  /* margin-left: 5%;
+  margin-top: 50px; */
 }
 
 .containerFooter a {
@@ -29,8 +38,13 @@
 
 .facegookIcon {
   width: 30px;
-  /* background: #bafbb5; */
-  margin-right: 5%;
-  margin-top: 20px;
   filter: invert();
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .line,
+  .contacts {
+    width: 90%;
+  }
 }

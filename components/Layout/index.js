@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Footer from '../Footer';
+import HeaderHome from '../HeaderHome';
 // import Header from '../HeaderID/index.js';
 
 const Layout = ({ children }) => {
@@ -10,7 +11,9 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/logo.svg" passHref />
       </Head>
       <header>
-        <div className="App">{/* <Header /> */}</div>
+        <div className="App">
+          <HeaderHome />
+        </div>
       </header>
       <main>{children}</main>
       <Footer />

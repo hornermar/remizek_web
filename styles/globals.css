@@ -13,15 +13,16 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 100vh;
+}
+
+button,
+a {
+  cursor: pointer;
 }
 
 img {
   width: 100%;
-}
-
-header {
-  width: 0;
-  margin: 0;
 }
 
 .container {
@@ -68,6 +69,13 @@ header {
   margin-top: 35px;
 }
 
+@media (min-width: 768px) {
+  .cover_text {
+    width: 40%;
+    padding-top: 10%;
+  }
+}
+
 header {
   position: absolute;
   z-index: 10;
@@ -76,6 +84,7 @@ header {
   align-items: center;
   background-color: transparent;
   color: white;
+  width: 100%;
 }
 
 /* Header */
@@ -86,17 +95,17 @@ header {
   margin: 5%;
   justify-content: space-between;
   margin-bottom: 40px;
-  position: absolute;
-  top: 0;
+  font-size: 24px;
 }
 
 .logo {
   filter: invert();
   position: absolute;
-  top: -12px;
+  top: 0px;
+  left: 10px;
   width: 150px;
-  height: auto;
-  left: -10px;
+  display: none;
+  /* height: auto; */
 }
 
 .nav_bar button {
@@ -134,12 +143,12 @@ header {
 }
 
 .menu_nav__first {
-  margin-top: 25%;
+  margin-top: 28%;
 }
 
 .nav_bar a {
   display: block;
-  padding: 10px 0px;
+  padding: 20px 0px;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -179,43 +188,54 @@ header {
 }
 
 @media (min-width: 768px) {
-  header {
-    margin-top: 50px;
+  .nav_bar button {
+    display: none;
+  }
+  .menu_nav__first {
+    display: none;
   }
   .nav_bar {
-    display: flex;
-    margin: 10px 30px 10px 30px;
-  }
-  .menu_nav {
-    width: 70%;
-    background: transparent;
-    position: static;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 10%;
+    width: 90vw;
+    color: white;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 16px;
   }
 
   .logo {
     position: static;
-    width: 15%;
+    width: 9%;
+    height: 6%;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
   }
 
-  .nav_bar button {
-    display: none;
+  .menu_nav {
+    width: 60%;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
   }
 
-  .menu_nav__first {
-    margin-top: 0;
-  }
   .menu_nav li {
-    flex-grow: 1;
+    height: 50px;
+    padding: 0;
+    margin: 0;
   }
-  .nav_bar a {
-    color: white;
+  .header_line {
+    height: 1px;
+    width: 90vw;
+    background-color: #bafbb5;
+    margin-bottom: 20px;
   }
 }
 
 h1 {
-  padding-top: 40px;
+  padding-top: 55px;
 }

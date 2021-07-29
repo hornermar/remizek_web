@@ -5,12 +5,14 @@ const Footer = () => {
   return (
     <div className={styles.containerFooter}>
       <div className={styles.line}></div>
-      <p>
-        <a href="mailto: tpsremizek@gmail.com">tpsremizek@gmail.com</a>
-      </p>
-      <Link href="https://www.facebook.com/TPSremizek">
-        <img className={styles.facegookIcon} src="/facebook.svg" />
-      </Link>
+      <div className={styles.contacts}>
+        <p>
+          <a href="mailto: tpsremizek@gmail.com">tpsremizek@gmail.com</a>
+        </p>
+        <Link href="https://www.facebook.com/TPSremizek">
+          <img className={styles.facegookIcon} src="/facebook.svg" />
+        </Link>
+      </div>
     </div>
   );
 };

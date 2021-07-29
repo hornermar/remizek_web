@@ -1,6 +1,6 @@
 .philosophy {
   background-color: #bafbb5;
-  /* width: 100vw; */
+  max-height: 100vh;
 }
 
 .containerPhilosophy {
@@ -21,4 +21,14 @@
   background-color: black;
   padding: 5px 15px;
   font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .containerPhilosophy {
+    width: 60%;
+    padding: 50px 0 70px 0;
+  }
+  .philosophy p {
+    font-size: 20px;
+  }
 }

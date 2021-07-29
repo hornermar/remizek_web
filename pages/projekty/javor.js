@@ -1,11 +1,9 @@
 import Link from 'next/link';
 import styles from '../../styles/SimpleProject.module.css';
-import HeaderLink from '../../components/HeaderLink';
 
 const Javor = () => {
   return (
     <>
-      <HeaderLink />
       <div className={styles.simplePage}>
         <div className={styles.container}>
           <div>

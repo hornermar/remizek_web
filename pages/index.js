@@ -1,7 +1,6 @@
 import BlogContent from '../components/BlogContent';
 import ContactContent from '../components/ContactContent';
 import ExperienceContent from '../components/ExperienceContent';
-import HeaderHome from '../components/HeaderHome';
 import PhilosophyContent from '../components/PhilosophyContent';
 import ProjectsContent from '../components/ProjectsContent';
 import RentalContent from '../components/RentalContent';
@@ -11,7 +10,6 @@ import TeamContent from '../components/TeamContent';
 export default function Home() {
   return (
     <div>
-      <HeaderHome />
       <div className="container_page">
         <div className="cover">
           <div className="cover_text">

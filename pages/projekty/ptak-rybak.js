@@ -1,10 +1,8 @@
 import styles from '../../styles/SimpleProject.module.css';
-import HeaderLink from '../../components/HeaderLink';
 
 const PtakRybak = () => {
   return (
     <>
-      <HeaderLink />
       <div className={styles.simplePage}>
         <div className={styles.container}>
           <div className={styles.title}>
