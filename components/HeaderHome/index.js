@@ -40,11 +40,11 @@ const HeaderHome = () => {
               Kolektiv umělců
             </Link>
           </li>
-          {/* <li>
-            <Link href="/filosofie-spolku" passHref>
-            Filosofie spolku
-          </Link>
-          </li> */}
+          <li>
+            <Link href="/#filosofie-spolku" passHref>
+              Filosofie spolku
+            </Link>
+          </li>
           <li>
             <Link href="/zazij-remizek" passHref>
               Zažij Remízek
